@@ -1,0 +1,45 @@
+<package>
+	<id>com.exile90.icleanerpro</id>
+	<name>Full Package</name>
+	<version>2.0.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
+	<descriptionlist>
+		<description>This is an cool package. Forked from</description>
+		<description>https://ib-soft.net</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description></description>
+			<image>1.png</image>
+		</screenshot>		
+		<screenshot>
+			<description></description>
+			<image>2.png</image>
+		</screenshot>		
+		<screenshot>
+			<description></description>
+			<image>3.png</image>
+		</screenshot>		
+		<screenshot>
+			<description></description>
+			<image>4.png</image>
+		</screenshot>		
+			
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>

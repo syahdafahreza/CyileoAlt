@@ -1,28 +1,300 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
+Package: cn.tinyapps.respringassistant
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 836
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.tinyapps.respringassistant.deb
+Size: 305528
+MD5sum: 4c4dd46bcea2f238376166d4eca1d651
+SHA1: 421f6cb05b40455c6a404e5ea790c54b94e5e06e
+SHA256: dfce7a120a351fbe84cff44906ada31378fce5a3b0486c95270529fcd7adbf9e
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Description: [快速注销+联网修复]Restart your SpringBoard&Refresh App Icons& Fix network[for iOS 15-iOS16] for Rootless 支持无根越狱 快速重启SpringBoard，注销设备；一键刷新桌面的应用图标；修复越狱后无法联网问题
+Tag: purpose::extension, role::enduser
+Author: Tinyapps.cn <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Dev: shengwen
+Icon: file:///var/jb/Applications/Rehosts.app/Icon.png
+Name: Respring Assistant-Rootless无根越狱(快速注销+联网修复) - Restart your SpringBoard QUICKLY, Refresh App Icons EASILY, Restore network
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Package: com.cydiageek.abetterprivacyforwhatsapp
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 721
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.cydiageek.abetterprivacyforwhatsapp.deb
+Size: 144656
+MD5sum: 9a1654ee7ec6d8fce540cacbe6dfc437
+SHA1: 3f243a4c2b75fc2ab9004396091b23c747b031ea
+SHA256: b5e3c99e8e2d9b867e3513e13e6f99bd65bd0d77c5791b8613d4f6a3264d78a7
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=abetterprivacyforwhatsappDp
+Description: Better Privacy options for Whatsapp & More!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=abetterprivacyforwhatsappDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/ABetterPrivacyforWhatsApp.bundle/ABetterPrivacyforWhatsApp@2x.png
+Name: ABetterPrivacyforWhatsApp
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro.deb
+Size: 1263530
+MD5sum: 7ddc45100ddd2b818e98a42b41207a46
+SHA1: a6d7c40ca2123eb5aed733f73eed6c77ffdc854c
+SHA256: 322264c9d0103680421c41de72c2827eb4fed2cd78766929124b7b8008c1dc7e
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: https://syahdafahreza.github.io/CyileoAlt/depictions/?p=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 256
+Depends: firmware (>= 7.0)
+Filename: ./debs/com.opa334.altlist.deb
+Size: 45714
+MD5sum: c4a29eccc6fe1ae504a50db00a7d16c9
+SHA1: 180a959d7d798acbe57a73924b1f683e64125ba6
+SHA256: a636d18ad50129112017c2551e60600857c1a627c804828d3dd0f858e74e78ee
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Description: A modern AppList alternative
+Tag: purpose::library
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Dev: opa334
+Name: AltList
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.opa334.trollstorehelper
+Version: 2.0.9
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4300
+Filename: ./debs/com.opa334.trollstorehelper.deb
+Size: 2287546
+MD5sum: ae47007b918b0c849b0d773afd4ec317
+SHA1: bd620818eedaa05e19b70aa7a730c9d99941096a
+SHA256: e8adb3c23b5c1319902698c8b4cf8985585d8a579d04121777606b9227df1cde
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.tigisoftware.appdatamanager
+Version: 1.8.2-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 5236
+Recommends: ldid
+Filename: ./debs/com.tigisoftware.appdatamanager.deb
+Size: 1933314
+MD5sum: 30c2f5415d3f45e67669d8377e7c71a0
+SHA1: 4f31620eafa22e2e6fe3284bbcee63bccfa8d804
+SHA256: 885def286271c4cee55e742d5bbd7f256829b6019faa584f3636ea393407fc44
+Section: Utilities
+Priority: optional
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Name: Apps Manager
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit.deb
+Size: 8818754
+MD5sum: cd8a7ba83fdba8d9e233e76133939020
+SHA1: 684377cd109701d0a2a7b2df774ad1c000978fd3
+SHA256: cc03664c836ec9ec2b4931d41df1a7e7920270429e029ea5aa90ef54571ead5e
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: emt.paisseon.erika
+Version: 1.13.3
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 368
+Depends: mobilesubstrate, lilliana.async | firmware (>= 15.0)
+Filename: ./debs/emt.paisseon.erika.deb
+Size: 128874
+MD5sum: 50bd686b316c77c6aee45d3359cf7dce
+SHA1: fe86f3fe43e990f63578db6150349b10524c19fe
+SHA256: f9a3f02d725229f2f27b0fdc0b0b1c0dd12ada21f3a763b667656a95e0ef0533
+Section: Tweaks (Piracy)
+Description: Piracy downloader for Sileo
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Erika.json&name=Erika&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Erika.png
+Name: Erika
+Sileodepiction: https://paisseon.github.io/depictions/Erika.json
+
+Package: emt.paisseon.satella
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs/emt.paisseon.satella.deb
+Size: 141742
+MD5sum: 814682e85144cae6de7588532abfbee3
+SHA1: 22d338eddc770d62042b943e8ad265cd9aa6d6b7
+SHA256: eff06fac3999d790695f41bd170093bde7444becd6d44ace94a4af76ea4a1e47
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
+Package: lilliana.filzacrack
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/lilliana.filzacrack.deb
+Size: 26760
+MD5sum: 13eee301cd0f2265d3760ce916ed93f5
+SHA1: a0249fb84a56a1b702f0ef55365a8c008518813e
+SHA256: f028145479302983980643b140b0a6ea67e51e881dfe84c7938e49cd1cdd030c
+Section: Tweaks
+Description: An awesome Jinx tweak!
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/FilzaCrack.json&name=FilzaCrack&dev=Lilliana
+Icon: https://paisseon.github.io/icons/FilzaCrack.png
+Name: FilzaCrack
+Sileodepiction: https://paisseon.github.io/depictions/FilzaCrack.json
+
+Package: org.thebigboss.whatsapprevael
+Version: 10.23
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4113
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: org.thebigboss.whatsapprevaelrootless
+Filename: ./debs/org.thebigboss.whatsapprevael.deb
+Size: 1527210
+MD5sum: 6b31c873f958a2761f477b3a1e7d0fad
+SHA1: 2df57607e9c89a651ce38647c4bd62fbf6ac4965
+SHA256: 35d5a06f22168d02deb9663f609b2edee9a394df8908c09ceb86163018ef4103
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
+Description: Many features of the WhatsApp application
+Tag: purpose::extension
+Author: Ahmad Mokadam <ahmadmokaddam@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
+Dev: ahmadmokaddam
+Icon: file:///Library/Application%20Support/WARevael.bundle/icon@2x.png
+Name: Whatsapp Revael
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: sezo.nyx
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: Sezo <support@sezo.app>
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/sezo.nyx.deb
+Size: 3129050
+MD5sum: 217425050a363f07b322ea3f286e9ca3
+SHA1: e0ffbe2598520d27e6b190a349cf6176e46470ff
+SHA256: daef5c67307bb45b43c144c983ea2d9f50a2e28252a9802f06ba94183d3b4543
+Section: Tweaks
+Homepage: https://sezo.app/
+Description: Supercharge your experience on Instagram!
+Author: Sezo <support@sezo.app>
+Depiction: https://sezo.app/depiction/web/sezo.nyx.html
+Icon: https://sezo.app/assets/sezo.nyx/icon.png
+Moderndepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Name: Nyx for Instagram
+Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Tags: compatible_min::ios14.0, compatible_max::ios
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/ws.hbang.alderis.deb
+Size: 583940
+MD5sum: cda2082f86a7a50849e9fea595cbb60f
+SHA1: dd584d3bb775f65f647b4a8f82bc71d3a97120d6
+SHA256: 28b7e0449bf10d4097722d3729082abd77107e893b0531b90eb2046aecb4c54c
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common.deb
+Size: 356036
+MD5sum: ef2ab34ab54e66ed77ed77b95be16e04
+SHA1: abb444768cd098084223a5bc56f6d94f000cb781
+SHA256: 4799c5fd9333c481e0c13505570b4a01139878388fc3e850ab4651d6de562b3f
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3.deb
+Size: 6366368
+MD5sum: 2a6f3b1c27e7a7a0166e63e56de7e7a3
+SHA1: f4d9e2ce6f22bdcc1b29064346c0780c0e0e8379
+SHA256: 03b08f6d8801c7a70dfc65c8bf0c085b32a76bf689eca2f4a03f418934474ccc
+Section: Terminal Support
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
 
