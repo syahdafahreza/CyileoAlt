@@ -20,6 +20,27 @@ Icon: file:///var/jb/Applications/Rehosts.app/Icon.png
 Name: Respring Assistant-Rootless无根越狱(快速注销+联网修复) - Restart your SpringBoard QUICKLY, Refresh App Icons EASILY, Restore network
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.captinc.batchomatic
+Version: 4.3.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 463
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Filename: ./debs/batchomatic_4.3.1.deb
+Size: 65672
+MD5sum: f8c5302959b1c2686d3d4d9d137c757f
+SHA1: ac13c9880c4e77f364c59f9fcd9f2cb9f0b2b5e9
+SHA256: e607d18a02818484f9f84c4b834df2c3bc18e99e446badc75f5ad761298d98ad
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Capt Inc <teamcaptinc@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batchomaticDp
+Dev: captinc
+Name: Batchomatic
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cydiageek.abetterprivacyforwhatsapp
 Version: 1.6.4
 Architecture: iphoneos-arm64
@@ -63,6 +84,29 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
+Package: com.lema.wolf
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12212
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debs/wolf_2.1.deb
+Size: 2848920
+MD5sum: 88c17aee430ab5283ff4afac1b5b5c39
+SHA1: faadef3caf0ac9c77e940ca0ec58197c1a035d62
+SHA256: 2f77186a3fc5c87fc1f1736b5fb20f339a38a4e5fee4b042f58e2f67a971dbf1
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wolfDp
+Description: The all-in-one tweak for Facebook
+Tag: purpose::extension
+Author: Michael Lema <samewhitetee@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wolfDp
+Dev: lema
+Icon: file:///Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
+Name: Wolf
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.opa334.altlist
 Version: 1.0.11
 Architecture: iphoneos-arm64
@@ -98,6 +142,25 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+
+Package: com.sinfool.youtopia
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: sinfool
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.sinfool.youtopia_0.0.2_iphoneos-arm.deb
+Size: 3492
+MD5sum: ac6cc4524bb3e21e4d15d4523d96c9d5
+SHA1: f1984fa0418b89f366e299d4582d93b81332c5e3
+SHA256: 1d44da392bfd538be4add8ea5c1e50df148298b3893b8198addcc97080b146c9
+Section: Tweaks
+Description: The perfect YouTube experience!
+ - No Home Feed Ads
+ - No Video Ads
+ - Enable Background Playback
+Author: sinfool
+Name: YouTopia
 
 Package: com.tigisoftware.appdatamanager
 Version: 1.8.2-4
@@ -213,6 +276,27 @@ Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paiss
 Icon: https://paisseon.github.io/icons/FilzaCrack.png
 Name: FilzaCrack
 Sileodepiction: https://paisseon.github.io/depictions/FilzaCrack.json
+
+Package: me.alfhaily.adblockforyoutube
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 241
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/adblockforyoutube_1.0.7.deb
+Size: 31796
+MD5sum: bed6816fa575fbf0a1fd6cb4160bd1e2
+SHA1: aeb64e4842256413f7f5a11901b416112c1136f6
+SHA256: f85661c782d5d87cfd51a4eedcbf09b92c8901b96ca72388689098ae092dfc41
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=adblockforyoutubeDp
+Description: Block YouTube Ads and Video Ads
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Majd Alfhaily <freemanrepo@me.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=adblockforyoutubeDp
+Dev: freemanrepo
+Name: AdBlock for YouTube
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: mobilesubstrate
 Version: 0.9.6301
